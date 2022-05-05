@@ -1,0 +1,4 @@
+name = "graph-api"
+
+[database]
+url = "mongodb://mongodb:27017/"

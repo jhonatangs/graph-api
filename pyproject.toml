@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "graph-api"
+version = "0.1.0"
+description = "A graph API."
+authors = ["jhongs <jhonatangs1@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.75.2"
+uvicorn = "^0.17.6"
+dynaconf = "^3.1.8"
+beanie = "^1.10.8"
+networkx = "^2.8"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.3.0"
+pytest = "^7.1.2"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
